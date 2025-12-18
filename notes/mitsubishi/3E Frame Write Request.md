@@ -66,10 +66,6 @@ var req4 = new WriteRequest_3E_Frames(Device.M, "0", wordData, writeAsBit: false
 ### 구현 코드
 
 ```csharp
-using System.Runtime.InteropServices;
-
-namespace ADOT.PLC.Mitsubishi.Protocols.Binary.Request;
-
 /// <summary>
 /// Mitsubishi 3E Frames protocol - Batch Write
 /// Communication to the Q/QnA/L/R and FX5 Series CPUs.
